@@ -15,6 +15,7 @@ This project includes both an Angular frontend (`agdataproj.client`) and a .NET 
 ```bash
 git clone https://github.com/vj2254/AgdataProj.git
 cd AgdataProj
+```
 
 ### Run the .NET Core Web API
 
@@ -22,16 +23,19 @@ cd AgdataProj
 
 ```bash
 cd Agdata.Api
+```
 
 2) Restore the dependencies
 
 ```bash
 dotnet restore
+```
 
 3) Run the Web API
 
 ```bash
 dotnet run
+```
 
 The Web API will be running on https://localhost:7182
 
@@ -41,16 +45,19 @@ The Web API will be running on https://localhost:7182
 
 ```bash
 cd ../agdataproj.client
+```
 
 2) Install dependencies
 
 ```bash
 npm install
+```
 
 3) Start the Angular development server
 
 ```bash
 ng serve
+```
 
 The Angular app will be running on http://localhost:4200
 
