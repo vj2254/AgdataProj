@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "agdataproj.client", "agdataproj.client\agdataproj.client.esproj", "{78B0F595-C95F-4C75-A227-8320F8F130C5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agdataproj.Api", "Agdata.Api\Agdata.Api\Agdataproj.Api.csproj", "{A8612538-AC8A-44DC-9EF9-8AEEC49F9352}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agdata.Api", "Agdata.Api\Agdata.Api\Agdata.Api.csproj", "{CD938228-F140-498B-AD4F-60E1C07F28B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,10 @@ Global
 		{78B0F595-C95F-4C75-A227-8320F8F130C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78B0F595-C95F-4C75-A227-8320F8F130C5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{78B0F595-C95F-4C75-A227-8320F8F130C5}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{A8612538-AC8A-44DC-9EF9-8AEEC49F9352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A8612538-AC8A-44DC-9EF9-8AEEC49F9352}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A8612538-AC8A-44DC-9EF9-8AEEC49F9352}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A8612538-AC8A-44DC-9EF9-8AEEC49F9352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD938228-F140-498B-AD4F-60E1C07F28B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD938228-F140-498B-AD4F-60E1C07F28B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD938228-F140-498B-AD4F-60E1C07F28B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD938228-F140-498B-AD4F-60E1C07F28B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
