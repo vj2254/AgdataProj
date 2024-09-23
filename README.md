@@ -34,6 +34,7 @@ dotnet restore
 3) Run the Web API
 
 ```bash
+cd Agdata.Api
 dotnet run
 ```
 
