@@ -1,0 +1,38 @@
+# Ignore Visual Studio temporary files, build results, and
+# folder-based project outputs
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+.vscode/
+.tmp/
+.idea/
+*.dbmdl
+*.vcxproj.user
+
+# Ignore build outputs
+[Bb]in/
+[Oo]bj/
+
+# Ignore NuGet packages
+*.nupkg
+**/packages/*
+
+# Ignore the .NET user secrets
+**/secrets.json
+
+# Ignore node_modules
+/agdataproj.client/node_modules/
+
+# Ignore npm debug files
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignore Angular build outputs
+/dist/
+/out-tsc/
+/agdataproj.client/src/*.js
+/agdataproj.client/src/*.js.map 

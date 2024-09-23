@@ -1,0 +1,77 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  border: 1px solid #007bff; /* Blue border around the card */
+}
+
+.card-header {
+  background-color: white; /* Removed gray background, now white */
+  padding: 15px;
+  border-bottom: 1px solid #007bff; /* Added border at the bottom of the header */
+}
+
+.card-body {
+  padding: 20px 30px; /* Padding around the form */
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.btn-primary {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.invalid-feedback {
+  font-size: 14px;
+  margin-top: 5px; /* Space above validation message */
+}
+
+.alert {
+  font-size: 14px;
+}
+
+.form-control {
+  padding: 10px;
+}
+
+  .form-control:focus {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Blue shadow for focused input */
+    border-color: #007bff; /* Blue border when focused */
+  }
+
+.invalid-feedback {
+  color: #dc3545; /* Red color for validation error */
+  font-style: italic;
+}
+
+table {
+  width: 100%;
+}
+
+th, td {
+  padding: 10px;
+  vertical-align: middle;
+}
+
+th {
+  text-align: left;
+  font-weight: bold;
+  width: 150px;
+}
+
+.mt-4 {
+  margin-top: 1.5rem !important;
+}
+
+/* Additional margin for better spacing */
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}

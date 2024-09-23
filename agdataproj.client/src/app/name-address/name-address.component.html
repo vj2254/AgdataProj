@@ -1,0 +1,79 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card shadow-sm border border-primary">
+        <!-- Card border retained -->
+        <div class="card-header text-center bg-white">
+          <!-- Removed gray background and made it white -->
+          <h4 class="mb-0">Enter Your Details</h4>
+        </div>
+        <div class="card-body">
+          <form [formGroup]="nameAddressForm" (ngSubmit)="onSubmit()">
+            <!-- Name Field -->
+            <div class="mb-4 row">
+              <!-- Margin adjusted for spacing -->
+              <label for="name" class="col-sm-4 col-form-label text-end">Name</label>
+              <div class="col-sm-8">
+                <input id="name"
+                       formControlName="name"
+                       class="form-control"
+                       [ngClass]="{'is-invalid': nameAddressForm.get('name')?.invalid && nameAddressForm.get('name')?.touched}" />
+                <div *ngIf="nameAddressForm.get('name')?.invalid && nameAddressForm.get('name')?.touched" class="invalid-feedback">
+                  Name is required.
+                </div>
+              </div>
+            </div>
+
+            <!-- Address Field -->
+            <div class="mb-4 row">
+              <!-- Margin adjusted for spacing -->
+              <label for="address" class="col-sm-4 col-form-label text-end">Address</label>
+              <div class="col-sm-8">
+                <input id="address"
+                       formControlName="address"
+                       class="form-control" />
+              </div>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="row mb-3">
+              <!-- Adjusted margin-bottom for spacing -->
+              <div class="col-sm-8 offset-sm-4">
+                <button type="submit" [disabled]="nameAddressForm.invalid" class="btn btn-primary w-100">
+                  Submit
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <!-- Success Message -->
+          <div *ngIf="successMessage" class="alert alert-success mt-3">
+            {{ successMessage }}
+          </div>
+
+          <!-- Error Message -->
+          <div *ngIf="errorMessage" class="alert alert-danger mt-3">
+            {{ errorMessage }}
+          </div>
+
+          <!-- Display Returned Data -->
+          <div *ngIf="submittedData" class="mt-4">
+            <h5 class="text-center">Submitted Data</h5>
+            <table class="table table-bordered">
+              <tbody>
+                <tr>
+                  <th class="text-start fw-bold" style="width: 150px;">Name</th>
+                  <td>{{ submittedData.name }}</td>
+                </tr>
+                <tr>
+                  <th class="text-start fw-bold" style="width: 150px;">Address</th>
+                  <td>{{ submittedData.address }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

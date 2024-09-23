@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "agdataproj.client", "agdataproj.client\agdataproj.client.esproj", "{78B0F595-C95F-4C75-A227-8320F8F130C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agdataproj.Api", "Agdata.Api\Agdata.Api\Agdataproj.Api.csproj", "{A8612538-AC8A-44DC-9EF9-8AEEC49F9352}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78B0F595-C95F-4C75-A227-8320F8F130C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78B0F595-C95F-4C75-A227-8320F8F130C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78B0F595-C95F-4C75-A227-8320F8F130C5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{78B0F595-C95F-4C75-A227-8320F8F130C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78B0F595-C95F-4C75-A227-8320F8F130C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78B0F595-C95F-4C75-A227-8320F8F130C5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A8612538-AC8A-44DC-9EF9-8AEEC49F9352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8612538-AC8A-44DC-9EF9-8AEEC49F9352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8612538-AC8A-44DC-9EF9-8AEEC49F9352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8612538-AC8A-44DC-9EF9-8AEEC49F9352}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E320A9D8-AE7E-423B-A8AC-06F97C26E942}
+	EndGlobalSection
+EndGlobal
