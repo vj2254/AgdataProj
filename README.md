@@ -45,7 +45,7 @@ The Web API will be running on https://localhost:7182
 1) Navigate to the Angular project directory
 
 ```bash
-cd ../agdataproj.client
+cd ../../agdataproj.client
 ```
 
 2) Install dependencies
